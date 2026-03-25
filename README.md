@@ -35,7 +35,7 @@ A clean, developer-focused markdown notes app. Write in markdown, see a live pre
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/noteflow.git
+git clone https://github.com/MRxhaqq/NoteFlow-.git
 cd noteflow
 
 # Install dependencies

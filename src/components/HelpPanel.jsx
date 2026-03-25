@@ -1,4 +1,3 @@
-// src/components/HelpPanel.jsx
 import {
   Sheet,
   SheetContent,

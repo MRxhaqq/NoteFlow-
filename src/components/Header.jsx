@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import { useNotes } from "@/context/NotesContext";
 import { Sun, Moon, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
