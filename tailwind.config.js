@@ -7,20 +7,17 @@
 //   plugins: [],
 // }
 
-// tailwind.config.js
+import typography from "@tailwindcss/typography";
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ["class"],
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        serif: ['"Instrument Serif"', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        mono: ['"JetBrains Mono"', 'monospace'],
+        serif: ['"Instrument Serif"', "Georgia", "serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
+        mono: ['"JetBrains Mono"', "monospace"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -68,5 +65,6 @@ export default {
       },
     },
   },
-  plugins: [],
-}
+  // tailwind.config.js
+  plugins: [typography],
+};
